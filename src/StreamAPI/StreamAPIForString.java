@@ -22,7 +22,7 @@ public class StreamAPIForString {
 		// print all animal in upper case
 		animalName.stream().map(l -> l.toUpperCase()).forEach(k -> System.out.println(k));
 		
-		System.out.println("----------------------------------------------------------------");
+		System.out.println("-------------------------------------------------------------");
 		
 		// print animal starting with t in upper case
 		animalName.stream().filter(l -> l.startsWith("T")).map(m -> m.toUpperCase()).forEach(k -> System.out.println(k));
