@@ -16,7 +16,7 @@ public class TerminalOperations {
 		// for each -> print method 
 		list.stream().forEach(z -> System.out.println(z));
 		
-		// in form of list 
+		// in form of list .
 		List<Integer> li = list.stream().collect(Collectors.toList());
 		System.out.println(li);
 		
