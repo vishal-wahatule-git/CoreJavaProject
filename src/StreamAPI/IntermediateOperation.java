@@ -13,7 +13,7 @@ public class IntermediateOperation {
 		// case 1 -> print even
 		list.stream().filter(x -> x%2 ==0).forEach(t -> System.out.println(t));
 		
-		// case 2 -> store even in list 
+		// case 2 -> store even in list .
 		List<Integer> evenList = list.stream().filter(x -> x%2 ==0).collect(Collectors.toList());
 		System.out.println(evenList);
 		
