@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 public class Main {
 	public static void main(String[] args) {
 		
-		Predicate<Integer> p = (a) -> a % 2 == 0; // predicate fun intrf [ boolean test(T t); ]
+		Predicate<Integer> p = (a) -> a % 2 == 0; // predicate fun intrf [ boolean test(T t); ]. 
 		System.out.println(p.test(25));
 
 //  	----------------------------------------------------------------------------------------
