@@ -1,5 +1,5 @@
 package Synchronisation;
-
+// Counter
 public class DigitCounter {
 	
 	int count = 0;
