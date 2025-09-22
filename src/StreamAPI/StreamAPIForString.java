@@ -14,7 +14,7 @@ public class StreamAPIForString {
 		List<String> listOne = animalName.stream().filter(m -> m.startsWith("T")).collect(Collectors.toList());
 		System.out.println(listOne);
 		
-		// count of animal starting with t
+		// count of animal starting with t.
 		long count = animalName.stream().filter(l -> l.startsWith("T")).count();
 		System.out.println(count);
 		
