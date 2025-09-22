@@ -8,7 +8,7 @@ public class Demo {
 		
 //		try {
 //		// we write a line of code that may throw exception
-//		}
+//		}.
 			
 		Scanner sc = new Scanner(System.in);
 		
