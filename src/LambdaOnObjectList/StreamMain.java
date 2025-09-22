@@ -8,7 +8,7 @@ public class StreamMain {
 	public static void main(String[] args) {
 		List<Employee> eList = EmployeeRepository.getListOfEmp();
 		
-		// using for each loop
+		// using for each loop .
 		int totalSalary = 0;
 		for(Employee e : eList) {
 			totalSalary = totalSalary +e.getSalary();
